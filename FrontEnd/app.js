@@ -1,5 +1,5 @@
 // Url for the request 
-var url = 'http://localhost:8080/';
+var url = 'http://Private-Load-Balancer-2035078278.eu-central-1.elb.amazonaws.com:80/';
 
 fetch(url + "products", { method: 'GET' })
     .then(Result => Result.json())
