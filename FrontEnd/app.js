@@ -1,5 +1,5 @@
 // Url for the request 
-var url = 'http://Private-Load-Balancer-2035078278.eu-central-1.elb.amazonaws.com:80/';
+var url = 'https://d12ghzj9dcmr50.cloudfront.net';
 
 fetch(url + "products", { method: 'GET' })
     .then(Result => Result.json())
