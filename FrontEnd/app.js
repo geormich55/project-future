@@ -1,5 +1,5 @@
 // Url for the request 
-var url = 'https://d12ghzj9dcmr50.cloudfront.net';
+var url = 'https://d12ghzj9dcmr50.cloudfront.net/';
 
 fetch(url + "products", { method: 'GET' })
     .then(Result => Result.json())
